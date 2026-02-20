@@ -62,9 +62,8 @@
     padding: 15px;
     text-align: center;;
     border-radius: 10px;
-   
     text-decoration: none;
-    color: var(--default-color);
+    color: gray;
     font-weight: 600;
 }
 .hero-buttons i {
@@ -76,3 +75,24 @@
    width: 400px;
 }
 
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-img img{
+    width: 300px;
+    height: 250px;
+}
+.about-title{
+    margin: 30px;
+}
+.about-desc p{
+
+    margin: 30px;
+}
+
+.about-button{
+    margin: 30px;
+}
