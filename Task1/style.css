@@ -36,6 +36,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 20% 0;
 }
 
 .header-part {
@@ -69,13 +70,13 @@ body {
 
 .cards {
     display: flex;             /* left & right side by side */
-    gap: 40px;                 /* space between columns */
+    gap: 5px;                 /* space between columns */
 }
 
 .left, .right {
     display: flex;
     flex-direction: column;    /* stack cards vertically */
-    gap: 20px;                 /* space between cards */
+    gap: 5px;                 /* space between cards */
 }
 
 .box {
