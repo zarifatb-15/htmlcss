@@ -96,3 +96,29 @@
 .about-button{
     margin: 30px;
 }
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.services-title{
+
+   text-align: center;
+}
+.services-title h3{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+#services h3::after{
+    display: inline-block;
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: #009cea;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
